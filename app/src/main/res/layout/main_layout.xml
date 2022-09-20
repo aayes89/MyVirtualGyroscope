@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/accelTitle"
+        android:text="@string/acc_title"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="@string/acc_vals"
+        android:textAlignment="center"
+        android:id="@+id/accelvalues"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="@string/gyro_title"
+        android:id="@+id/gyroTitle"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="@string/gyro_vals"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:id="@+id/gyroValues"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="@string/magnet_title"
+        android:id="@+id/magnetTitle"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="@string/magnet_vals"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/magnetValues"
+        />
+
+
+</LinearLayout>

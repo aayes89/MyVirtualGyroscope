@@ -31,7 +31,8 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     compileOnly 'de.robv.android.xposed:api:82'
-    //implementation 'de.robv.android.xposed:api:82'
     //implementation 'androidx.appcompat:appcompat:1.4.2'
+    //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:23.0.1'
+    //compileOnly 'io.github.controlwear:virtualjoystick:1.10.1'
 }

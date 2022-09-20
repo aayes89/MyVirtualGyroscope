@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Virtual Gyroscope by Slam</string>
+    <string name="acc_title">Accelerometer</string>
+    <string name="magnet_title">Magnetometer</string>
+    <string name="gyro_title">Gyroscope</string>
+    <string name="acc_vals">Accelerometer values: </string>
+    <string name="magnet_vals">Magnetomter values: </string>
+    <string name="gyro_vals">Gyroscope values: </string>
 </resources>
